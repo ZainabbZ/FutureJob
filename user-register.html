@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register as Professional | Future-Proof Careers</title>
+    <title>Future-Proof Assessment | Future-Proof Careers</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,45 +19,137 @@
     </nav>
     
     <main class="container">
-        <div class="form-container">
-            <h2>Professional Registration</h2>
-            <form id="userForm">
-                <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="currentJob">Current Job Title</label>
-                    <input type="text" id="currentJob" required>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Continue to Assessment</button>
-                </div>
-            </form>
-        </div>
+        <form id="assessmentForm">
+            <h2>Future-Proof Assessment</h2>
+            <p>Answer these 10 questions to evaluate your career's future resilience</p>
+            
+            <!-- Question 1 -->
+            <div class="question-card">
+                <h3>1. How much of your daily work involves routine, repetitive tasks?</h3>
+                <ul class="option-list">
+                    <li><label><input type="radio" name="q1" value="4" required> Almost all of it (80-100%)</label></li>
+                    <li><label><input type="radio" name="q1" value="3"> Most of it (60-80%)</label></li>
+                    <li><label><input type="radio" name="q1" value="2"> About half (40-60%)</label></li>
+                    <li><label><input type="radio" name="q1" value="1"> Some of it (20-40%)</label></li>
+                    <li><label><input type="radio" name="q1" value="0"> Very little (0-20%)</label></li>
+                </ul>
+            </div>
+            
+            <!-- Question 2 -->
+            <div class="question-card">
+                <h3>2. How much creative problem solving does your work require?</h3>
+                <ul class="option-list">
+                    <li><label><input type="radio" name="q2" value="0" required> Almost all of it</label></li>
+                    <li><label><input type="radio" name="q2" value="1"> Most of it</label></li>
+                    <li><label><input type="radio" name="q2" value="2"> About half</label></li>
+                    <li><label><input type="radio" name="q2" value="3"> Some of it</label></li>
+                    <li><label><input type="radio" name="q2" value="4"> Very little</label></li>
+                </ul>
+            </div>
+            
+            <!-- Question 3 -->
+            <div class="question-card">
+                <h3>3. How often do you interact directly with clients/customers?</h3>
+                <ul class="option-list">
+                    <li><label><input type="radio" name="q3" value="0" required> Daily</label></li>
+                    <li><label><input type="radio" name="q3" value="1"> Weekly</label></li>
+                    <li><label><input type="radio" name="q3" value="2"> Monthly</label></li>
+                    <li><label><input type="radio" name="q3" value="3"> Rarely</label></li>
+                    <li><label><input type="radio" name="q3" value="4"> Never</label></li>
+                </ul>
+            </div>
+            
+            <!-- Question 4 -->
+            <div class="question-card">
+                <h3>4. How much does your job require emotional intelligence?</h3>
+                <ul class="option-list">
+                    <li><label><input type="radio" name="q4" value="0" required> Extremely important</label></li>
+                    <li><label><input type="radio" name="q4" value="1"> Very important</label></li>
+                    <li><label><input type="radio" name="q4" value="2"> Moderately important</label></li>
+                    <li><label><input type="radio" name="q4" value="3"> Slightly important</label></li>
+                    <li><label><input type="radio" name="q4" value="4"> Not important</label></li>
+                </ul>
+            </div>
+            
+            <!-- Question 5 -->
+            <div class="question-card">
+                <h3>5. How specialized are your technical skills?</h3>
+                <ul class="option-list">
+                    <li><label><input type="radio" name="q5" value="0" required> Highly specialized</label></li>
+                    <li><label><input type="radio" name="q5" value="1"> Very specialized</label></li>
+                    <li><label><input type="radio" name="q5" value="2"> Moderately specialized</label></li>
+                    <li><label><input type="radio" name="q5" value="3"> Somewhat specialized</label></li>
+                    <li><label><input type="radio" name="q5" value="4"> Not specialized</label></li>
+                </ul>
+            </div>
+            
+            <!-- Question 6 -->
+            <div class="question-card">
+                <h3>6. How much does your job involve physical tasks?</h3>
+                <ul class="option-list">
+                    <li><label><input type="radio" name="q6" value="0" required> Almost all of it</label></li>
+                    <li><label><input type="radio" name="q6" value="1"> Most of it</label></li>
+                    <li><label><input type="radio" name="q6" value="2"> About half</label></li>
+                    <li><label><input type="radio" name="q6" value="3"> Some of it</label></li>
+                    <li><label><input type="radio" name="q6" value="4"> Very little</label></li>
+                </ul>
+            </div>
+            
+            <!-- Question 7 -->
+            <div class="question-card">
+                <h3>7. How often do you learn new skills for your job?</h3>
+                <ul class="option-list">
+                    <li><label><input type="radio" name="q7" value="0" required> Continuously</label></li>
+                    <li><label><input type="radio" name="q7" value="1"> Monthly</label></li>
+                    <li><label><input type="radio" name="q7" value="2"> Quarterly</label></li>
+                    <li><label><input type="radio" name="q7" value="3"> Yearly</label></li>
+                    <li><label><input type="radio" name="q7" value="4"> Rarely or never</label></li>
+                </ul>
+            </div>
+            
+            <!-- Question 8 -->
+            <div class="question-card">
+                <h3>8. How much decision-making autonomy do you have?</h3>
+                <ul class="option-list">
+                    <li><label><input type="radio" name="q8" value="0" required> Complete autonomy</label></li>
+                    <li><label><input type="radio" name="q8" value="1"> Significant autonomy</label></li>
+                    <li><label><input type="radio" name="q8" value="2"> Moderate autonomy</label></li>
+                    <li><label><input type="radio" name="q8" value="3"> Limited autonomy</label></li>
+                    <li><label><input type="radio" name="q8" value="4"> No autonomy</label></li>
+                </ul>
+            </div>
+            
+            <!-- Question 9 -->
+            <div class="question-card">
+                <h3>9. How much does your job require collaboration with others?</h3>
+                <ul class="option-list">
+                    <li><label><input type="radio" name="q9" value="0" required> Almost all of it</label></li>
+                    <li><label><input type="radio" name="q9" value="1"> Most of it</label></li>
+                    <li><label><input type="radio" name="q9" value="2"> About half</label></li>
+                    <li><label><input type="radio" name="q9" value="3"> Some of it</label></li>
+                    <li><label><input type="radio" name="q9" value="4"> Very little</label></li>
+                </ul>
+            </div>
+            
+            <!-- Question 10 -->
+            <div class="question-card">
+                <h3>10. How easily could your tasks be broken down into clear instructions?</h3>
+                <ul class="option-list">
+                    <li><label><input type="radio" name="q10" value="4" required> Very easily</label></li>
+                    <li><label><input type="radio" name="q10" value="3"> Easily</label></li>
+                    <li><label><input type="radio" name="q10" value="2"> Moderately</label></li>
+                    <li><label><input type="radio" name="q10" value="1"> With difficulty</label></li>
+                    <li><label><input type="radio" name="q10" value="0"> Not at all</label></li>
+                </ul>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Get My Results</button>
+            </div>
+        </form>
     </main>
     
     <script src="js/auth.js"></script>
-    <script>
-        document.getElementById('userForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Save basic user info to session storage
-            const userData = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                currentJob: document.getElementById('currentJob').value
-            };
-            
-            sessionStorage.setItem('userData', JSON.stringify(userData));
-            
-            // Redirect to assessment
-            window.location.href = 'user-assessment.html';
-        });
-    </script>
+    <script src="js/assessment.js"></script>
 </body>
 </html>
